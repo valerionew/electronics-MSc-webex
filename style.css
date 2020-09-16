@@ -1,6 +1,5 @@
 body {
 margin: 40px auto;
-max-width: 800px;
 line-height: 1.6;
 font-size: 18px;
 font-family: Open Sans, Arial;
@@ -29,6 +28,13 @@ a {
 color: #2bba50;
 }
 
+img {
+  width: 80%;
+  height: auto;
+  max-width: 1600px;
+  margin: auto;  display: block;
+}
+
 ul {
 list-style: square;
 }
@@ -40,6 +46,14 @@ p.endpage {
 font-style: italic;
 font-size: 16px;
 text-align: justify;
+max-width: 800px;
+margin: 40px auto;
+}
+
+div.body {
+max-width: 800px;
+margin: 40px auto;
+
 }
 
 code {
